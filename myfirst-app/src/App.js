@@ -13,6 +13,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>Welcome to my "first-app" in React.js with redux!!</h1>
+        <h2>©Evarist Jaume</h2>
       </div>
     );
   }
