@@ -9,6 +9,6 @@ const enhancer = composeWithDevTools(
 	applyMiddleware(thunk, logger())
 	);
 
-export default function configureStore (initialStore) {
-	return createStore(rootReducer, initialStore, enhancer)
+export default function configureStore (initialState) {
+	return createStore(rootReducer, initialState, enhancer);
 	};
