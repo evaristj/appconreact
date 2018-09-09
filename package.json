@@ -2,7 +2,9 @@
   "name": "myfirst-app",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": "10.1.0"},
+  "engines": {
+    "node": "10.1.0"
+  },
   "dependencies": {
     "ajv-keywords": "^3.2.0",
     "react": "^16.4.1",
