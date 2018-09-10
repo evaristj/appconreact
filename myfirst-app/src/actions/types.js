@@ -3,7 +3,7 @@ export const LOAD_CART_ITEMS = 'LOAD_CART_ITEMS';
 export const ADD_CART_ITEM = 'ADD_CART_ITEM';
 export const REMOVE_CART_ITEM = 'REMOVE_CART_ITEM';
 
-//Product Actions (Async)
+//Constantes, Product Actions (Async)
 // FETCH_PRODUCTS_INIT CREO QUE NO ES NECESARIO
 export const FETCH_PRODUCTS_INIT = 'FETCH_PRODUCTS_INIT';
 export const FETCH_PRODUCTS_SUCCESS = 'FETCH_PRODUCTS_SUCCESS';

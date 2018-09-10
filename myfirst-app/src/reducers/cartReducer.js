@@ -26,7 +26,7 @@ switch (action.type) {
             total: state.total + action.payload.price,
         };
     case REMOVE_CART_ITEM: {
-        // creamos arrow function porque nos ahorramos código
+        // creamos arrow function en vez de object.assign, porque nos ahorramos código
         // devolvemos el id si corresponde con el action.payload, quiere decir:
         // creamos funcion llamada searchItem que le pasamos por parametro un item, si el id
         // de ese item corresponde con el de action.payload._id, el item será borrado del cart
